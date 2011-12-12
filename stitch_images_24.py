@@ -27,7 +27,6 @@ for i in filelist:
     strname = i #str(i[:])
 
     if strname.endswith(".py") or strname.startswith("."):
-		print("skipping hidden file")
         continue
     
     filepath = path+strname
