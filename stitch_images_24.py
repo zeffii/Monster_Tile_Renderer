@@ -15,15 +15,21 @@ from PIL import Image
 
 
 output_format = 'PNG'
-path = os.getcwdu()
+path = os.getcwd()
 filelist = os.listdir(path) # lists content (supposed to be images only!)
 filelist = sorted(filelist)
-
+separator = os.sep
+path = path + separator
 
 stitchlist = []
 for i in filelist:
     strname = str(i[:])
+
+    if strname.endswith(".py"):
+        continue
+    
     filepath = path+strname
+    print(filepath)
     
     # disect filename, get dimensions
     db = Image.open(filepath)
