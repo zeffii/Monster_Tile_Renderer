@@ -19,8 +19,8 @@
 bl_info = {
     'name': 'Monster Tile Renderer',
     'author': 'Dealga McArdle (zeffii) <digitalaphasia.com>',
-    'version': (0, 3, 0),
-    'blender': (2, 5, 8),
+    'version': (0, 3, 2),
+    'blender': (2, 6, 0),
     'location': 'Render > Monster Tile Renderer',
     'description': 'you give it CM / INCH, it spits out tiled renders.',
     'wiki_url': '',
@@ -311,7 +311,8 @@ class RENDER_PT_SetupTiles(bpy.types.Panel):
 
         # side by side
         row3.label("file type")
-        row3.prop(scn.render, "file_format", text="")
+        # row3.prop(scn.render, "file_format", text="")
+        row3.prop(scn.render.image_settings, "file_format", text="")  #update for 2.6
  
         if unit.system in ('METRIC','IMPERIAL'):
             row3.prop(scn, "MyDPIsetting")
