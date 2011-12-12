@@ -1,4 +1,5 @@
 # GPL2 LICENCE - code by Dealga McArdle (zeffii) 2011 july 12
+# modified for python 3.1 + PIL .
 '''
 usage, 
 1) stick the output of Monster Tile Renderer in a folder.
@@ -23,7 +24,7 @@ path = path + separator
 
 stitchlist = []
 for i in filelist:
-    strname = str(i[:])
+    strname = i #str(i[:])
 
     if strname.endswith(".py"):
         continue
