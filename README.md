@@ -18,7 +18,7 @@ Noteworthy
 : don't forget to pick an output directory.  
 : again, look at the caculated settings and pose yourself the question; 'do they make sense' ?  
 : finally, when you 'apply settings' depending on your input, the camera aspect might change relative  
-: allways look through the camera, before rendering to make sure you get what you want  
+: always look through the camera, before rendering to make sure you get what you want  
 : if you can't figure it out, render more than you need, stich..then crop later.
 
 Considerations for future releases.  
