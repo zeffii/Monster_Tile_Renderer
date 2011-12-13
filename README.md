@@ -1,4 +1,4 @@
-as of late i've received a couple of notifications that v3_005 of Monster Tile Render needed to
+as of late I've received a couple of notifications that v3_005 of Monster Tile Render needed to
 be updated for work in 2.6. As of 2.6.007 the script here does work for me on a Trunk build for win32 
 around 12 December 2011.
 
@@ -11,12 +11,12 @@ Advice on how to use the program.
 : read to yourself the result of the calculations, and think 'do they make sense? do i really want 900 tiles?'  
 : press apply settings  
 : open up blender console (for render update information.. at the time of writing i couldn't manage anything classier)
-: press render, timetravel or go do something else.
+: press render, time-travel or go do something else.
 
 Noteworthy  
-: the filename setting doesn't impact the files written to disk,  they will be called the same as your .blend (easier to find!)  
+: the filename setting doesn't impact the files written to disk, they will be called the same as your .blend (easier to find!)  
 : don't forget to pick an output directory.  
-: again, look at the caculated settings and pose yourself the question; 'do they make sense' ?  
+: again, look at the calculated settings and pose yourself the question; 'do they make sense' ?  
 : finally, when you 'apply settings' depending on your input, the camera aspect might change relative  
 : always look through the camera, before rendering to make sure you get what you want  
 : if you can't figure it out, render more than you need, stich..then crop later.
