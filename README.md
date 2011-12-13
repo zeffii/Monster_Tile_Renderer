@@ -10,6 +10,8 @@ Advice on how to use the program.
 : press calculate settings  
 : read to yourself the result of the calculations, and think 'do they make sense? do i really want 900 tiles?'  
 : press apply settings  
+: open up blender console (for render update information.. at the time of writing i couldn't manage anything classier)
+: press render, timetravel or go do something else.
 
 Noteworthy  
 : the filename setting doesn't impact the files written to disk,  they will be called the same as your .blend (easier to find!)  
@@ -18,3 +20,11 @@ Noteworthy
 : finally, when you 'apply settings' depending on your input, the camera aspect might change relative  
 : allways look through the camera, before rendering to make sure you get what you want  
 : if you can't figure it out, render more than you need, stich..then crop later.
+
+Considerations for future releases.  
+: I've already written code to the effect of being able to email an image from blender to my gmail account.  
+: I will try to find this .py and upload here, and consider adding things like  
+: - option to either email upon tile completion  
+: - email upon tile completion and email the image at the same time  
+: - email upon tile completion, but don't email the images  (or thumbnail )
+: - email upon tile completion, but don't email the images, email a reduced version of the composite (so you know what's going on)  
