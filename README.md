@@ -10,8 +10,8 @@ Advice on how to use the program.
 : press calculate settings  
 : read to yourself the result of the calculations, and think 'do they make sense? do i really want 900 tiles?'  
 : press apply settings  
-: open up blender console (for render update information.. at the time of writing i couldn't manage anything classier)
-: press render, time-travel or go do something else.
+: open up blender console (for render update information.. at the time of writing i couldn't manage anything classier)  
+: press render, time-travel or go do something else.  
 
 Noteworthy  
 : the filename setting doesn't impact the files written to disk, they will be called the same as your .blend (easier to find!)  
