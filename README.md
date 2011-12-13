@@ -26,5 +26,5 @@ Considerations for future releases.
 : I will try to find this .py and upload here, and consider adding things like  
 : - option to either email upon tile completion  
 : - email upon tile completion and email the image at the same time  
-: - email upon tile completion, but don't email the images  (or thumbnail )
+: - email upon tile completion, but don't email the images  (or thumbnail )  
 : - email upon tile completion, but don't email the images, email a reduced version of the composite (so you know what's going on)  
