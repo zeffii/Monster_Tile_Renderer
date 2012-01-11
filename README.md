@@ -2,7 +2,7 @@ Monster Tile Renderer
 ====
 
 as of late I've received a couple of notifications that v3_005 of Monster Tile Render needed to
-be updated for work in 2.6. As of 2.6.007 the script here does work for me on a Trunk build for win32 
+be updated to work in 2.6. As of 2.6.007 the script here does work for me on a Trunk build for win32 
 around 12 December 2011.
 
 If there are any more issues, contact me here or leave a bug report, but please also state which version of blender
