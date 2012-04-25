@@ -22,7 +22,7 @@ and the revision and full error message.
 : again, look at the calculated settings and pose yourself the question; 'do they make sense' ?  
 : finally, when you 'apply settings' depending on your input, the camera aspect might change relative  
 : always look through the camera, before rendering to make sure you get what you want  
-: if you can't figure it out, render more than you need, stich..then crop later.
+: if you can't figure it out, render more than you need, stitch..then crop later.
 
 ###  Considerations for future releases.  
 : I've already written code to the effect of being able to email an image from blender to my gmail account.  
