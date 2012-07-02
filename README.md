@@ -12,7 +12,7 @@ and the revision and full error message.
 : pick your output format, path, and filename, and adjust the variables available.  
 : press calculate settings  
 : read to yourself the result of the calculations, and think 'do they make sense? do i really want 900 tiles?'  
-: press apply settings  (this does start the render job! )  
+: press apply settings  (this does _not_ start the render job yet! )  
 : open up blender console (for render update information.. at the time of writing i couldn't manage anything classier)  
 : press render, time-travel or go do something else.  
 
