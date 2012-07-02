@@ -97,7 +97,6 @@ def get_pixels(context):
             
         print("\nat", DPI, "DPI that gives: ")
     
-        # [ ] todo verify if rounding up here is cool   
         w_in_px = width_in_inches*DPI
         h_in_px = height_in_inches*DPI
         w_in_px = math.floor(w_in_px)   
