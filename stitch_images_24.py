@@ -7,8 +7,6 @@ usage,
 
 '''
 
-
-# stitching your images, get py 2.6/2.7 and get PIL
 import os
 import re
 import PIL
