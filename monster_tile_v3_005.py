@@ -374,9 +374,6 @@ class RENDER_PT_SetupTiles(bpy.types.Panel):
         
     
         # a few lines to indicate the number of subset tiles.
-            
-        
-
         row14 = layout.row(align=True)
         num_tiles = str(scn.MyTilesWidth * scn.MyTilesHeight)
         button_title = "render job! "+ num_tiles + " Tiles"
@@ -442,8 +439,6 @@ def register():
 def unregister():
     for classname in reg_list:
         bpy.utils.unregister_class(classname)
-    #bpy.context.scene.MyShowSwitch = False
-    #bpy.props.RemoveProperty(bpy.context.scene,'MyShowSwitch')
 
 if __name__ == "__main__":
     register()
