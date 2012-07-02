@@ -419,7 +419,10 @@ class OBJECT_OT_StartTileJob(bpy.types.Operator):
     bl_description = "Start Render Job using defined tile numbers"
 
     def execute(self, context):
-        do_render_job(context.scene)
+        if len(bpy.data.cameras) > 0:
+            do_render_job(context.scene)
+        else:
+            print('nope, add a camera first')
         return {'FINISHED'}
 
 
