@@ -19,8 +19,8 @@
 bl_info = {
     'name': 'Monster Tile Renderer',
     'author': 'Dealga McArdle (zeffii) <digitalaphasia.com>',
-    'version': (0, 3, 2),
-    'blender': (2, 6, 0),
+    'version': (0, 3, 3),
+    'blender': (2, 6, 3),
     'location': 'Render > Monster Tile Renderer',
     'description': 'you give it CM / INCH, it spits out tiled renders.',
     'wiki_url': '',
@@ -32,6 +32,7 @@ from bpy.props import *
 from bpy import path
 import math
 
+# updated 2 July 2012
 
 ''' C O N S T A N T S   ( S T R I N G S   A N D   V A L U E S )'''
 
